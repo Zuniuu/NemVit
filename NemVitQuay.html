@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ẩm thực Lạng Sơn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: #d70000;
+            padding: 10px;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .search {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .search input {
+            border-radius: 12px;
+        }
+
+        .sidebar {
+            width: 200px;
+            float: left;
+            background: #f2f2f2;
+            padding: 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .main {
+            margin-left: 220px;
+            padding: 10px;
+        }
+
+        .content-box {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .content-box img {
+            float: left;
+            margin-right: 10px;
+            width: 150px;
+            height: auto;
+        }
+
+        .footer {
+            clear: both;
+            background: #d70000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        select, input[type="text"], input[type="submit"] {
+            margin-top: 10px;
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm">
+                <input type="submit" value="Tìm kiếm">
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <a href="./About.html">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Tin tức</a>
+            <a href="#">Du lịch</a>
+            <a href="#">Ẩm thực</a>
+            <a href="#">Dịch vụ</a>
+            <a href="#">Liên hệ</a>
+            <a href="#">Thành viên</a>
+
+            <form>
+                <select>
+                    <option>Chọn nhóm sản phẩm</option>
+                    <option>L1</option>
+                    <option>L2</option>
+                    <option>L3</option>
+                </select>
+                <select>
+                    <option>Chọn sản phẩm mức giá</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                </select>
+                <input type="submit" value="Tìm kiếm">
+            </form>
+        </div>
+
+        <div class="main">
+            <div class="content-box">
+                <img src="./assets/img/Nam-nuong-huu-lung(1).jpg" alt="Nem nướng Hữu Lũng">
+                <h3>Nem nướng Hữu Lũng</h3>
+                <p>Được chế tác từ đủ thứ nguyên liệu người sành ăn đều thích Lạng Sơn. Không chỉ dùng trong những dịp lễ tết, món này đã trở thành đặc sản có mặt khắp nơi bởi hương vị hấp dẫn, đậm đà. Nem nướng Hữu Lũng được làm từ thịt lợn xay nhỏ, trộn với bì lợn, gia vị, cuốn trong lá chuối rồi đem nướng than hoa. Hương vị độc đáo khiến thực khách không thể nào quên.</p>
+            </div>
+
+            <div class="content-box">
+                <img src="./assets/img/huong-dan-cach-che-bien-vit-quay-lang-son.jpg" alt="Vịt quay Lạng Sơn">
+                <h3>Vịt quay Lạng Sơn</h3>
+                <p>Vịt quay Lạng Sơn gây ấn tượng bởi mùi thơm đặc trưng của lá mắc mật, lớp da vàng óng giòn tan và thịt mềm ngọt. Khi ăn chấm kèm với nước chấm pha chế riêng biệt tạo nên hương vị khó cưỡng.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            TRƯỜNG CAO ĐẲNG SƯ PHẠM LẠNG SƠN<br>
+            Điện thoại: 0903.812.182<br>
+            Email: cdsp.langson@moet.edu.vn
+        </div>
+    </div>
+</body>
+</html>
